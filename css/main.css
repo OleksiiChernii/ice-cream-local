@@ -198,6 +198,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 12px;
   gap: 18px;
 }
 .button__item {
