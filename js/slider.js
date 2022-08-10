@@ -10,7 +10,7 @@ const slider = tns({
     autoplayButtonOutput: false,
     autoplay: false
   });
-  console.log("connected")
+  
   const buttons = document.getElementsByClassName('button__item');
   function goToElement(buttons, value, svgIcon){
     slider.goTo(value);

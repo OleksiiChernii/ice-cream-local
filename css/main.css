@@ -99,7 +99,7 @@ ul {
           transform: translateX(-50%);
 }
 
-.comment__wrapper {
+.comment__lines {
   width: 180px;
   height: 217px;
   position: absolute;
@@ -110,20 +110,20 @@ ul {
   background-image: repeating-linear-gradient(to bottom, #e1e1e1 0, #e1e1e1 1px, transparent 2px, transparent 30px);
 }
 @media screen and (min-width: 768px) {
-  .comment__wrapper {
+  .comment__lines {
     width: 608px;
     height: 61px;
     bottom: 36px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .comment__wrapper {
+  .comment__lines {
     width: 821px;
     height: 31px;
     bottom: 31px;
   }
 }
-.comment__wrapper::before {
+.comment__lines::before {
   content: "";
   width: 54px;
   height: 40px;
