@@ -103,8 +103,8 @@ ul {
 }
 
 .comment__lines {
-    width: 180px;
-    height: 217px;
+    width: calc(100% - 100px);
+    height: calc(100% - 91px);
 
     position: absolute;
     bottom: 17px;
