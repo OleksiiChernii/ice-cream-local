@@ -207,7 +207,6 @@ ul {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 12px;
         gap: 18px;
     }
 
@@ -251,4 +250,12 @@ ul {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+  }
+
+  .list{
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
   }
